@@ -1,0 +1,14 @@
+.menu-test{
+	width:100%;
+	& a {
+		display: block;
+		max-width:410px;
+		height:30px;
+		padding: .5em;
+		text-transform: uppercase;
+		color: #2a2a2a;
+		&:hover{
+			color:#4a4a4a;
+		}
+	}
+}

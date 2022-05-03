@@ -1,0 +1,33 @@
+aside.user-connected {
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position:absolute;
+	right:55px;
+	top: 0px;
+}
+
+.card-connected {
+	display: flex;
+	flex-direction: row nowrap;
+	align-items: center;
+	border-radius: 0 0 15px 15px;
+	background-color: #346082;
+	padding: .5em;
+	margin-left: .5em;
+}
+
+.card-connected img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-image: linear-gradient(60deg, #2AAA8A, #4169E1);
+	padding: 5px;
+	/*     margin-top: -45px; */
+}
+
+.card-connected h2 {
+	margin: 10px 0;
+	font-size: 14px;
+}

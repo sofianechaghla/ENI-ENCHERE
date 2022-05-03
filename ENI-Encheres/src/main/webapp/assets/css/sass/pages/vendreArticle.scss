@@ -1,0 +1,68 @@
+.inscription.artForm{	
+	& h1{
+		width:80%;
+	}
+	& form{
+		@include flex-mix($flow:column);
+		& .groupForm.artForm{
+			width:80%;
+			& label{
+				width: 100%;
+			}
+			& input{
+				width: 100%;
+				padding: .5em;
+				border-radius: 5px;
+			}
+			& textarea{
+				width:100%;
+				padding: .5em;
+				border-radius: 5px;
+				resize: none;
+				min-height:200px;
+			}
+			& select {
+				width: 100%;
+				padding: .5em;
+				border-radius: 5px;
+			}
+			& span{
+				font-size: .6em;
+				color:rgb(4, 89, 17);
+			}
+		}
+		& .artGroup{
+			width:80%;
+			@include flex-mix($flow:column);
+			@media(min-width:600px){
+			@include flex-mix($content:space-between,$flow:row nowrap);
+			}
+			& .groupForm{
+				width:100%;
+				@media(min-width:600px){
+				width:45%;					
+				}
+				& label{
+			width: 100%;
+				}
+				& input{
+					width: 100%;
+					min-height: 40px;
+				}
+				& select {
+					width: 100%;
+					min-height: 40px;
+				}
+			}
+		}
+		& .img{
+			height:200px;
+		    background: url('https://wpformation.com/wp-content/uploads/2016/07/Fotolia_113370842_S.jpg');
+		    background-position: center;
+		    background-size: cover;
+		    width: 80%;
+		    margin-bottom: .5em;
+		  	border-radius: 10px;
+		}
+	}
+}

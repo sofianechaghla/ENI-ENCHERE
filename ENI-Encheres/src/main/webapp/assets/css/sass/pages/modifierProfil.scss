@@ -1,0 +1,33 @@
+.ModifMonProfil{
+	& div.box-form{
+		width: 100%;
+		padding: 0em 2em;
+		& .groupForm{
+			width:100%;
+			justify-content: start;
+			& label{				
+				width:100%;
+			}
+			& input{
+				width:100%;
+			}
+			& p.credit{
+				& span{
+					text-shadow: none;
+					color:goldenrod;
+					font-size: 1.2em
+				}
+			} 
+		}
+	}
+}
+button.btn-save:hover{
+	background: rgb(0, 128, 0);
+}
+
+a.delete:hover {
+	background: #800000;
+}
+a.return:hover{
+	background: #ff8000;
+}

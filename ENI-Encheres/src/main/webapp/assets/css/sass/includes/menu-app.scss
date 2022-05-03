@@ -1,0 +1,56 @@
+section.Menu-App nav {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-flow: row wrap;
+	background: #346082;
+}
+
+section.Menu-App nav a {
+	width: 50%;
+	text-align: center;
+	color: #f9f9f9;
+	padding: .5em 0;
+	
+}
+
+section.Menu-App nav a:hover {
+	color: #80ffff;
+	background: #47677f;
+}
+
+@media screen and (min-width:512px) {
+	section.Menu-App nav a {
+		width: 33%;
+	}
+}
+@media screen and (min-width:768px) {
+	header .head-top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-flow: row nowap;
+		padding-left: 2em;
+	}
+	header .head-top nav {
+		display: block;
+	}
+	
+	section.Menu-App nav {
+		justify-content: end;
+	}
+	
+	section.Menu-App nav a {
+	width: auto;
+	min-width:130px;
+	min-height:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f9f9f9;
+	padding: .5em;
+	border-left:1px solid #f9f9f9;
+}
+	
+}

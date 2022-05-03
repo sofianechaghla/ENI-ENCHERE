@@ -1,0 +1,16 @@
+.messagesErreurs{
+	width:100%;
+	padding:0 0 1em 2em;
+	color: #b00000;
+	& h2{
+		width:100%;
+		padding-bottom:1em;
+		font-size:.9em;
+		text-align: center;
+	}
+	& p{
+		width:100%;
+		padding-bottom:.5em;
+		font-size:.7em;
+	}
+}

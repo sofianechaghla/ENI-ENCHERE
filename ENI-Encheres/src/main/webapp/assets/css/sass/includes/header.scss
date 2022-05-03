@@ -1,0 +1,28 @@
+header {
+	width: 100%;
+}
+
+header .head-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row nowrap;
+	width: 100%;
+	background: #004a83;
+}
+
+header .head-top img {
+	width: 50px;
+	height: auto;
+	padding-right: 1em;
+	cursor: pointer;
+}
+
+header .head-top img:active {
+	transform: scale(.95);
+}
+
+header .head-top a img {
+	width: 120px;
+	height: auto;
+}
